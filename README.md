@@ -40,6 +40,10 @@ Enter saves the window:
 
 ![Close confirmation prompt](assets/close-prompt.png)
 
+The minimise tray — minimised windows wait here; click one to bring it back:
+
+![Minimise tray](assets/tray.png)
+
 Windows-style titlebar buttons — minimise, maximise, close:
 
 ![Titlebar buttons](assets/titlebar.png)
