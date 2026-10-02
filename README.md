@@ -64,6 +64,19 @@ confirmation uses `omarchy menu select` as a dmenu-style prompt.
   `omarchy pkg aur add hyprland-plugin-hyprbars` to rebuild it. The tray and
   close confirmation keep working regardless.
 
+## Removal
+
+```bash
+# 1. Remove the shell plugin
+omarchy plugin remove teknobu.minimize
+
+# 2. If you installed the optional titlebar, undo those steps too:
+#    - delete the `require("hypr.hyprbars")` line added to ~/.config/hypr/hyprland.lua
+#    - rm ~/.config/hypr/hyprbars.lua
+#    - remove the SUPER+H and SUPER+W lines added to ~/.config/hypr/bindings.lua
+#    - optionally: omarchy pkg remove hyprland-plugin-hyprbars
+```
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
