@@ -1,7 +1,7 @@
 # omarchy-window-training-wheels
 
 Windows-style window controls for [Omarchy](https://omarchy.org): titlebar
-buttons, minimise-to-tray, and a "did you mean to close?" confirmation.
+buttons, minimise-to-tray, and a "you sure about that?" close confirmation.
 
 ## The story
 
@@ -44,10 +44,9 @@ that back. If it stops you closing your 500th window too, it was worth it.
   ×) closes, and it fades out when empty. Thumbnails are captured with `grim`
   at the moment of minimise.
 - **Close confirmation** — clicking the titlebar × (or pressing `SUPER+W`)
-  asks "Did you mean to close or minimise?" before doing anything, so an
-  accidental click can't destroy a window. **Minimise** (the default, so Enter
-  picks it) parks the window in the tray; **Close** really closes it; **Esc**
-  does nothing.
+  asks "You sure about that?" before doing anything, so an accidental click
+  can't destroy a window. **Minimise** (the default, so Enter picks it) parks
+  the window in the tray; **Close** really closes it; **Esc** does nothing.
 
 ## Install
 

@@ -199,7 +199,7 @@ def prompt_close_active():
         sel = subprocess.run(
             [
                 "omarchy", "menu", "select",
-                "Did you mean to close or minimise?",
+                "You sure about that?",
                 "Minimise", "Close",
                 "--", "--width", "400",
             ],
