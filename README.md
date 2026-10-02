@@ -33,6 +33,17 @@ I'm no Linux expert — just a noob who broke things, searched a lot, and leaned
 on the Omarchy community the whole way. This is me trying to give a little of
 that back. If it stops you closing your 500th window too, it was worth it.
 
+## Screenshots
+
+The "you sure about that?" prompt — Minimise is the default, so a panicked
+Enter saves the window:
+
+![Close confirmation prompt](assets/close-prompt.png)
+
+Windows-style titlebar buttons — minimise, maximise, close:
+
+![Titlebar buttons](assets/titlebar.png)
+
 ## What it does
 
 - **Titlebar buttons** — a Windows-style bar on every window with close (red),
