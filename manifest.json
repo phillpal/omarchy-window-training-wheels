@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "teknobu.minimize",
+  "name": "Minimize & Tray",
+  "version": "1.1.0",
+  "author": "Phill",
+  "license": "MIT",
+  "description": "Windows-style titlebar buttons (minimise / maximise / close), a minimise-to-tray preview dock, and a close confirmation prompt.",
+  "kinds": [
+    "service"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "MinimizeTray.qml"
+  }
+}
